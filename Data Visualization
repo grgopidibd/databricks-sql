@@ -1,0 +1,51 @@
+Types of Data Visualization in Databricks 
+
+Counter
+Bar Chart
+Stacked Bar Chart
+Choropleth
+Markers
+Dashboards
+Parameterized Queries
+Funnel visualization
+Boxplot
+
+
+---The Counter
+
+The Counter visualization is one of the simplest visualizations in Databricks SQL. It displays a single number by default, but it can 
+also be configured to display a "goal" number. 
+
+--The Bar Chart
+
+One of the most often used visualizations in data analytics is the Bar Chart. Databricks SQL supports an variety of customization 
+options to make bar charts look beautiful.
+
+---The Stacked Bar Chart
+We can glean more data from the same query by adding a second visualization.
+
+--Maps - Choropleth
+
+Databricks SQL has two map visualizations you can use to plot address and geolocation data: choropleth and markers. The choropleth map visualization uses color to show the count of a criterion within a specific geographic area. 
+
+--Maps - Markers
+
+The Map (Markers) visualization type plots points on a map that signify a specific location. e.g we have latitude and 
+longitude data for our customer locations. We will use this to plot those locations on a map.
+
+--Dashboards
+
+We are now going to combine all the visualizations we created above into a dashboard that will display them all at once and that we can 
+put on a refresh schedule to keep the data that underlies each visualization up-to-date. 
+
+--Parameterized Queries
+a customization feature we can apply to our queries to give them more flexibility. Query 
+parameters allow us to make changes to our queries without requiring new code to be written.
+
+-- Funnel visualization
+
+The Funnel visualization shows the number of people as they progress from one step to another. e.g. the number of customers who have progressed from sales orders to actual sales.
+
+---- Create a Boxplot
+
+We can create a boxplot to highlight outliers in our data and to provide other information like quartiles, minimun, maximum, etc.
